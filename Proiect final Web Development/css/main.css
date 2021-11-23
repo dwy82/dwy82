@@ -1,0 +1,117 @@
+.hidden {
+    display: none;
+}
+.badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: green;
+    top: 5px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}* {
+    font-family: 'Open Sans', sans-serif;
+}
+.html
+{
+background-color:greenyellow;
+
+}
+
+.font-family-times {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 20px;
+    color: #990b59;
+}
+
+h2 {
+    font-size: 16px;
+    color: pink;
+}
+
+.text-bold {
+    font-weight: 600px;
+    color: black;
+}
+
+#articol-doi {
+    font-weight: 600;
+    color: red;
+}
+
+.article {
+    color: blue;
+}
+
+.first-article .h2-copil {
+    font-size: 24px;
+}
+
+h2 {
+    color:red;
+}
+
+
+
+.div class
+{
+    border: 6px solid red;
+    padding: 10px 20px 10px 50px;
+    padding: 40px 20px;
+    padding: 100px;
+    margin: 100px;
+    margin: 200px 10px 2000px 500px;
+    background-color: teal;
+}
+
+
+
+
+
+
+
+.header-navigation ul li a {
+    
+    background-color: black;
+    display: block;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-style: 16px;
+}
+
+.header-navigation ul li a:hover {
+    background: red;
+    color:indigo;
+}
+h1:hover{
+   background-color: greenyellow;
+   color:red;
+   transform: scale(2);
+   text-shadow: grey;
+   text-align: center;
+}
+p:hover{
+    color:black;
+    border-radius:solid 6px black;
+    background-size: 20%;
+    
+    background-color:mediumspringgreen;
+    text-transform: capitalize;
+}
+del{
+    color:white;
+    transform:scale(-3);
+
+}
+

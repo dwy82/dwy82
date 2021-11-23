@@ -1,0 +1,183 @@
+
+
+
+
+.container1 {
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+    margin: 150px auto;
+    background-image: url(../images/logopizza.jpg);
+}
+
+.cube {
+    position:fixed;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 1, 0, 45deg);
+    animation-name: turn;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    
+}
+
+.face {
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    border: 2px solid black;
+    position: absolute;
+    opacity: 0.5;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+.front {
+    transform: translateZ(100px);
+    background:limegreen;
+    display: flex;
+}
+
+.back {
+    transform: translateZ(-100px) rotate(180deg);
+    background-color: magenta;
+}
+
+.left {
+    transform: translateX(-100px) rotateY(90deg);
+    background-color:red;
+}
+
+.right {
+    transform: translateX(100px) rotateY(90deg);
+    background-color: sienna;
+}
+
+.top {
+    transform: translateY(-100px) rotateX(90deg);
+}
+
+.bottom {
+    transform: translateY(100px) rotateX(90deg);
+}
+.hidden {
+    display: none;
+}
+@keyframes turn{
+    from{
+        transform: rotate3d(0,0,0,0);
+    }
+    to{
+        transform: rotate3d(1,1,0,360deg);
+    
+    }
+}
+.div{
+    background-color: salmon;
+}* {
+    font-family: 'Open Sans', sans-serif;
+}
+.html
+{
+background-color:greenyellow;
+
+}
+
+.font-family-times {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 20px;
+    color: #990b59;
+}
+
+h2 {
+    font-size: 16px;
+    color: pink;
+}
+
+.text-bold {
+    font-weight: 600px;
+    color: black;
+}
+
+#articol-doi {
+    font-weight: 600;
+    color: red;
+}
+
+.article {
+    color: blue;
+}
+
+.first-article .h2-copil {
+    font-size: 24px;
+}
+
+h2 {
+    color:red;
+}
+
+
+
+.div class
+{
+    border: 6px solid red;
+    padding: 10px 20px 10px 50px;
+    padding: 40px 20px;
+    padding: 100px;
+    margin: 100px;
+    margin: 200px 10px 2000px 500px;
+    background-color: teal;
+}
+
+
+
+
+
+
+
+.header-navigation ul li a {
+    
+    background-color: black;
+    display: block;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    font-style: 16px;
+}
+
+.header-navigation ul li a:hover {
+    background: red;
+    color:indigo;
+}
+h1:hover{
+   background-color: greenyellow;
+   color:red;
+   transform: scale(2);
+   text-shadow: grey;
+   text-align: center;
+}
+p:hover{
+    color:black;
+    border-radius:solid 6px black;
+    background-size: 20%;
+    
+    background-color:mediumspringgreen;
+    text-transform: capitalize;
+}
+del{
+    color:white;
+    transform:scale(-3);
+
+}
